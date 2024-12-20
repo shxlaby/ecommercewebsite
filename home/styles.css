@@ -1,0 +1,192 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+
+}
+
+/* Home Page */
+.carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.carousel-img {
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.carousel-img:hover {
+    transform: scale(1.05);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+.featuresProducts {
+    text-align: center;
+    color: #00d4ff;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+/* Featured Products */
+.featured-products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 32px 0;
+    padding: 20px;
+}
+
+.featured-products .product {
+    text-align: center;
+    background-color: #141a31;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.featured-products .product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.featured-products .product img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Special Offers Section */
+.special-offers {
+    text-align: center;
+    margin: 48px;
+}
+
+.special-offers h2 {
+    color: #00d4ff;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.offers-container .offer {
+    text-align: center;
+    background-color: #141a31;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offers-container .offer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.offers-container .offer img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.offers-container .offer button {
+    background-color: #00d4ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.offers-container .offer button:hover {
+    background-color: #009cc4;
+}
+
+/* Customer Reviews Section */
+.customer-reviews {
+    background-color: #0d1321;
+    padding: 32px;
+    text-align: center;
+}
+
+.customer-reviews h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #00d4ff;
+}
+
+.customer-reviews .reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.customer-reviews .review {
+    background-color: #141a31;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.customer-reviews .review:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.customer-reviews .review p {
+    font-style: italic;
+    color: #00d4ff;
+}
+
+.customer-reviews .review h4 {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 16px;
+}

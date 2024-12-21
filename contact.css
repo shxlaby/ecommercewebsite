@@ -49,3 +49,22 @@ body {
 }
 
 
+/* Contact Page */
+.contact-page {
+    margin: 32px;
+    text-align: center;
+}
+
+.contact-page h1 {
+    color: #00d4ff;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.contact-page p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+

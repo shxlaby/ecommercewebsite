@@ -20,3 +20,7 @@ body {
     padding: 15px 30px;
     background-color: #0d1321;
 }
+
+.navbar:hover {
+    background-color: #141a31;
+}

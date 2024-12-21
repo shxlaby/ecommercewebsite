@@ -80,3 +80,32 @@ body {
 .scroll-btn:hover {
     background-color: #00d4ff;
 }
+
+/* Team Section */
+.team-grid {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.team-member {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+
+.member-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+.member-role {
+    font-size: 16px;
+    color: white;
+}

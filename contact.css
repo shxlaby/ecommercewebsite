@@ -34,4 +34,18 @@ body {
     display: flex;
     list-style-type: none;
 }
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    padding: 5px 10px;
+}
+
+
+
+.navbar ul li a:hover {
+    color: #00d4ff;
+}
+
 

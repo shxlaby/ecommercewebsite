@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ElectroShop</title>
+    <link rel="stylesheet" href="contact/contact.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">ElectroShop</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<!-- Contact Us Section -->
+<div class="contact-page">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you! Fill out the form below or reach us through the provided details.</p>
+
+    <!-- Contact Form -->
+    <form id="contactForm" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your Email Address" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+
+    <div id="thankYouMessage" class="thank-you-message" style="display: none;">
+        <h2>Thank You!</h2>
+        <p>Your message has been sent successfully. We'll get back to you soon!</p>
+    </div>
+
+    <!-- Contact Details -->
+    <div class="contact-details">
+        <h2>Our Office</h2>
+        <p>ismailia</p>
+        <p>Email: support@electroshop.com</p>
+        <p>Phone: +20100000000</p>
+
+        <h2>Follow Us</h2>
+        <div class="social-links">
+            <a href="#" target="_blank" class="social-icon">Facebook</a>
+            <a href="#" target="_blank" class="social-icon">Twitter</a>
+            <a href="#" target="_blank" class="social-icon">Instagram</a>
+        </div>
+    </div>
+</div>
+<!-- Footer Section -->
+<footer class="footer">
+    <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</footer>
+
+
+<script src="home/script.js"></script>
+</body>
+</html>
+
+<!-- JavaScript -->
+<script src="contact/contactscript.js"></script>
+</body>
+</html>

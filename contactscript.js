@@ -11,3 +11,9 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
         alert("All fields are required.");
         return;
     }
+    
+    // Validate Email
+    if (!email.includes("@") || !email.includes(".")) {
+        alert("Please enter a valid email address.");
+        return;
+    }

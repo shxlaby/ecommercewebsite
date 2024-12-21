@@ -1,3 +1,8 @@
+## An eCommerce platform for electronics
+made with HTML CSS JAVASCRIPT
+
+
+
 ##Students
 
 

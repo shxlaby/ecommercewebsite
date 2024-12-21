@@ -117,3 +117,10 @@ body {
     color: white;
     font-style: italic;
 }
+
+/* Footer Section */
+.footer {
+    background-color: #0d1321;
+    padding: 20px;
+    text-align: center;
+}

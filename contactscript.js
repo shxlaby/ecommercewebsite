@@ -11,9 +11,14 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
         alert("All fields are required.");
         return;
     }
-    
+
     // Validate Email
     if (!email.includes("@") || !email.includes(".")) {
         alert("Please enter a valid email address.");
         return;
     }
+
+     // Show Thank You Message
+     document.getElementById("contactForm").style.display = "none";
+     document.getElementById("thankYouMessage").style.display = "block";
+ });

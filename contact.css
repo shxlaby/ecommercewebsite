@@ -1,0 +1,25 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+
+}
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0d1321;
+}
+
+.navbar:hover {
+    background-color: #141a31;
+}

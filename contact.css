@@ -120,4 +120,20 @@ body {
     font-weight: bold;
 }
 
+/* Contact Details */
+.contact-details {
+    margin-top: 48px;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    color: whitesmoke;
+    margin: 8px;
+}
 

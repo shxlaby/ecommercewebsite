@@ -11,6 +11,44 @@ body {
     color: #fff;
 
 }
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0d1321;
+}
+
+.navbar:hover {
+    background-color: #141a31;
+}
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #00d4ff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    padding: 5px 10px;
+}
+
+
+
+.navbar ul li a:hover {
+    color: #00d4ff;
+}
+
 
 /* Home Page */
 .carousel {
@@ -189,4 +227,28 @@ body {
     font-weight: bold;
     color: #fff;
     margin-top: 16px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #0d1321;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer ul li a:hover {
+    color: #00d4ff;
 }

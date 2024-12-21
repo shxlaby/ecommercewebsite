@@ -124,3 +124,10 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
